@@ -1,0 +1,12 @@
+---
+title: "AirBNB_Project_Markdown"
+author: "Gonzalo Alarcon"
+date: "2024-04-12"
+output: html_document
+---
+
+```{r}
+data <- read.csv("Airbnb_Open_Data.csv")
+colSums(is.na(data))
+```
+
