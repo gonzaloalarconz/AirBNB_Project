@@ -12,5 +12,6 @@ library(tidyverse)
 
 data <- read.csv("Airbnb_Open_Data.csv")
 colSums(is.na(data))
+nearZeroVar(data, saveMetrics = TRUE)
 ```
 
