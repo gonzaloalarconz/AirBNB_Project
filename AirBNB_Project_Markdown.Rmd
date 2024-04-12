@@ -8,5 +8,6 @@ output: html_document
 ```{r}
 data <- read.csv("Airbnb_Open_Data.csv")
 colSums(is.na(data))
+na.omit(data)
 ```
 
